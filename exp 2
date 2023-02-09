@@ -3,6 +3,8 @@ mi = float(input("Enter Monthly Income:P "))
 
 income = mi * 12
 
+print(" Annual Income = P", income)
+
 
 if income <=250000:
     tax = 0
